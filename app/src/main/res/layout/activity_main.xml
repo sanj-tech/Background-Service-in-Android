@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="@drawable/picc"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/shape"
+        android:text="Stop Service" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:background="@drawable/shape"
+        android:textStyle="bold"
+        android:text="Next Page" />
+
+</LinearLayout>
+</LinearLayout>
